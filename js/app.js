@@ -1,6 +1,15 @@
 function comprar() {
     let tipo = document.getElementById('tipo-ingresso');
     let qtd = parseInt(document.getElementById('qtd').value);
+    let qtdInput = document.getElementById('qtd').value;
+
+    if (qtdInput == 0) {
+        alert('Por favor, insira uma quantidade válida.');
+        return;
+    }else if (qtdInput > 10) {
+        alert('Limite atingido. O limite por pessoa são 10 ingressos.');
+        return;
+    }
 
     
     
