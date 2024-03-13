@@ -1,1 +1,1 @@
-https://guilhmaciel.github.io/site-ingresso
+https://guilhmaciel.github.io/site_ingresso
